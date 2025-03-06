@@ -216,8 +216,8 @@ public class Ventana2 {
 		JScrollPane scrollPane = new JScrollPane(descripcion);
 		scrollPane.setBounds(30, 77, 126, 196);
 		
-		scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
-		scrollPane.setHorizontalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
+		//scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		//scrollPane.setHorizontalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
 		
 		panel_2.add(scrollPane);
 		
@@ -235,12 +235,14 @@ public class Ventana2 {
 		panel_5.setLayout(null);
 		
 		JButton btn_nuevo = new JButton("Nuevo");
+		btn_nuevo.setForeground(new Color(255, 255, 255));
 		btn_nuevo.setBackground(new Color(0, 0, 0));
 		btn_nuevo.setFont(new Font("Yu Gothic UI Semibold", Font.BOLD, 18));
 		btn_nuevo.setBounds(71, 64, 214, 42);
 		panel_5.add(btn_nuevo);
 		
 		JButton btn_guardar = new JButton("Guardar");
+		btn_guardar.setForeground(new Color(255, 255, 255));
 		btn_guardar.setBackground(new Color(0, 0, 0));
 		btn_guardar.setFont(new Font("Yu Gothic UI Semibold", Font.BOLD, 18));
 		btn_guardar.setBounds(71, 143, 214, 42);
@@ -256,7 +258,7 @@ public class Ventana2 {
 		panel_5.add(añadir);
 		
 		JButton btn_salir = new JButton("Salir");
-		btn_salir.setForeground(new Color(0, 0, 0));
+		btn_salir.setForeground(new Color(255, 255, 255));
 		btn_salir.setBackground(new Color(0, 0, 0));
 		btn_salir.setFont(new Font("Yu Gothic UI Semibold", Font.BOLD, 18));
 		btn_salir.setBounds(71, 224, 214, 42);
